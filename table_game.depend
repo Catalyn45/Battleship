@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1575758255 source:d:\pb cpp\table_game\src\game.cpp
+	"Game.h"
+
+1575586627 d:\pb cpp\table_game\include\game.h
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<GameObject.h>
+	<TextureManagement.h>
+	<cstdlib>
+	<ScreenManager.h>
+	<SDL2/SDL_ttf.h>
+	<string>
+	<sstream>
+	<stdio.h>
+	<time.h>
+	<fstream>
+
+1575758255 source:d:\pb cpp\table_game\main.cpp
+	<iostream>
+	<game.h>
+	<GameObject.h>
+
+1575065701 source:d:\pb cpp\table_game\src\gameobject.cpp
+	"GameObject.h"
+
+1575065701 d:\pb cpp\table_game\include\gameobject.h
+	<Game.h>
+
+1575114222 d:\pb cpp\table_game\include\texturemanagement.h
+	<Game.h>
+	<SDL2/SDL_ttf.h>
+
+1575586802 source:d:\pb cpp\table_game\src\texturemanagement.cpp
+	"TextureManagement.h"
+
+1575113664 d:\pb cpp\table_game\include\screenmanager.h
+	<Game.h>
+
+1575113883 source:d:\pb cpp\table_game\src\screenmanager.cpp
+	"ScreenManager.h"
+
+1574873840 d:\pb cpp\table_game\include\naveta.h
+	<GameObject.h>
+
+1574872927 source:d:\pb cpp\table_game\src\naveta.cpp
+	"Naveta.h"
+
